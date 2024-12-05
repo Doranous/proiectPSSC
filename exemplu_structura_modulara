@@ -1,0 +1,7 @@
+OrderProcessingSystem/
+├── OrderProcessing.Domain/       # Tipuri, entități și logică de business
+├── OrderProcessing.Application/  # Servicii, comenzi și CQRS handlers
+├── OrderProcessing.Infrastructure/ # Acces la date și integrarea cu alte sisteme
+├── OrderProcessing.API/          # Expunerea API-urilor pentru workflow
+├── OrderProcessing.Messaging/    # Configurare RabbitMQ/alte canale asincrone
+└── Tests/                        # Teste unitare și de integrare
